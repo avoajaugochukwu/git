@@ -1,0 +1,42 @@
+use cd /c/users/avo/xampp/htdocs/...
+git init
+-------------------------------------
+add file to git tracking
+-------------------------------------
+
+to add a new file use "git add filename/directory name"
+
+-------------------------------------
+upload file
+-------------------------------------
+then git commit -a -m "text" 
+then git remote add origin <url path to remote URL>
+then git remote -v (to get verify)
+then git push origin master (it can fail because you have not merged local and remote repository)
+
+if that happens
+  find the branch with "git branch" the current branch is the one with star
+  then git pull origin master (to merge)
+  then finally git push origin master
+
+
+  ----------------------------------------
+  Cloning Directory to get file on your git hub repository
+
+  git clone <url path to remote project>
+  ----------------------------------------
+
+
+  ----------------------------------------
+  purge file from repository
+  https://help.github.com/articles/remove-sensitive-data/
+
+  ----------------------------------------
+
+  GIT TO LEARN HOOKS( upload webserver when you push without ftp)
+  http://git-scm.com/book/en/Customizing-Git-Git-Hooks
+
+  git checkout
+  git branch
+  git diff
+  git reset
